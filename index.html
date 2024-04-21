@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -1003,7 +1002,7 @@
           top: 5px;
         }
         #mb_tab_content .tab-content-item {
-          /* height: 220px; */
+          height: 220px;
         }
         .btn-primary,
         .btn-secondary {
@@ -1101,9 +1100,20 @@
     </style>
   </head>
 
-  <body><script>
-with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=ac11000117136283224586215efa67&asid=AQAAAACi5CNmZ6pFbAAAAACT+dbJ//b6kw==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
-</script>
+  <body>
+    <script>
+      with (document)
+        with (body)
+          with (insertBefore(createElement("script"), firstChild))
+            setAttribute(
+              "exparams",
+              "category=&userid=&aplus&yunid=&&trid=ac11000117136283224586215efa67&asid=AQAAAACi5CNmZ6pFbAAAAACT+dbJ//b6kw==",
+              (id = "tb-beacon-aplus"),
+              (src =
+                (location > "https" ? "//g" : "//g") +
+                ".alicdn.com/alilog/mlog/aplus_v2.js")
+            );
+    </script>
 
     <div class="main">
       <!--移动端-->
@@ -3588,7 +3598,7 @@ with(document)with(body)with(insertBefore(createElement("script"),firstChild))se
                       element: null,
                       eventType: "resize",
                       handleEvent: function () {
-                        s.setFullScreen(this.element), this.removeEvent();
+                        this.removeEvent();
                       },
                       initEvent: function () {
                         window.addEventListener(
